@@ -1,0 +1,12 @@
+{
+    "name": "fooman/autoload",
+    "type": "library",
+    "description": "Add Fooman autoloading info for Magento",
+    "homepage": "http://store.fooman.co.nz/",
+    "license": "OSL-3.0",
+    "autoload": {
+        "psr-4": {
+            "Fooman\\": "app/code/Fooman/"
+        }
+    }
+}
